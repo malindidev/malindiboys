@@ -8,23 +8,32 @@
 </head>
 <body>
     <header>
-        <h1>Minecraft Server Store</h1>
-        <p>Buy ranks and perks for our Minecraft server!</p>
+        <h1>Welcome to Our Minecraft Store</h1>
+        <p>Upgrade your experience with exclusive ranks and perks!</p>
     </header>
     <section id="store">
+        <!-- Rank Item 1 -->
         <div class="item">
-            <h2>VIP Rank</h2>
-            <p>Get exclusive perks and commands.</p>
-            <button onclick="purchaseItem('VIP')">Buy Now - $5</button>
+            <img src="images/vip.png" alt="VIP Rank">
+            <div class="details">
+                <h2>VIP Rank</h2>
+                <p>Exclusive commands and bonuses to stand out!</p>
+                <button onclick="purchaseItem('VIP')">Buy Now - $5</button>
+            </div>
         </div>
+        <!-- Rank Item 2 -->
         <div class="item">
-            <h2>Elite Rank</h2>
-            <p>Unlock more commands and custom items.</p>
-            <button onclick="purchaseItem('Elite')">Buy Now - $10</button>
+            <img src="images/elite.png" alt="Elite Rank">
+            <div class="details">
+                <h2>Elite Rank</h2>
+                <p>All VIP perks, plus custom items and effects!</p>
+                <button onclick="purchaseItem('Elite')">Buy Now - $10</button>
+            </div>
         </div>
+        <!-- Add more items here if needed -->
     </section>
     <footer>
-        <p>Powered by Your Minecraft Server | All rights reserved © 2024</p>
+        <p>&copy; 2024 Our Minecraft Server | All rights reserved</p>
     </footer>
     <script src="script.js"></script>
 </body>
