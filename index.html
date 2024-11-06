@@ -1,80 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Minecraft Server</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Minecraft Server</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <!-- Hero Section -->
-  <header class="hero" id="header">
-    <div class="overlay"></div>
-    <div class="container">
-      <h1>Welcome to <span>My Minecraft Server</span></h1>
-      <p>Explore, build, and survive with friends!</p>
-      <a href="#about" class="btn">Join the Adventure</a>
-    </div>
-  </header>
-
-  <!-- About Section -->
-  <section class="about" id="about">
-    <div class="container">
-      <h2>About Our Server</h2>
-      <p>Join our community and enjoy an immersive Minecraft experience with friendly players, custom builds, and a thriving world to explore!</p>
-    </div>
-  </section>
-
-  <!-- Stats Section -->
-  <section class="stats" id="stats">
-    <div class="container">
-      <h2>Server Stats</h2>
-      <div class="stat-box">
-        <div class="stat">
-          <i class="fas fa-users"></i>
-          <h3>Players Online</h3>
-          <p>123</p>
+    <header class="header">
+        <img src="your-logo-url.png" alt="Server Logo" class="logo">
+        <div class="server-info">
+            <p>PLAY.EYSERVER.COM</p>
+            <button class="copy-btn">Click to Copy</button>
         </div>
-        <div class="stat">
-          <i class="fas fa-clock"></i>
-          <h3>Server Uptime</h3>
-          <p>99.9%</p>
+    </header>
+
+    <section class="main">
+        <div class="category-selector">
+            <h2>Select a Category</h2>
+            <button class="category-btn">Ranks</button>
+            <button class="category-btn">Coins</button>
         </div>
-      </div>
-    </div>
-  </section>
+        
+        <div class="packages">
+            <h2>Featured Packages</h2>
+            <div class="package-card">
+                <p>VIP (+500 Coins)</p>
+                <span class="price">15.59 USD</span>
+                <span class="discount">50% OFF</span>
+            </div>
+            <div class="package-card">
+                <p>MVP (+2500 Coins)</p>
+                <span class="price">44.39 USD</span>
+                <span class="discount">50% OFF</span>
+            </div>
+            <div class="package-card">
+                <p>Legend (+5000 Coins)</p>
+                <span class="price">107.99 USD</span>
+                <span class="discount">50% OFF</span>
+            </div>
+        </div>
 
-  <!-- Rules Section -->
-  <section class="rules" id="rules">
-    <div class="container">
-      <h2>Server Rules</h2>
-      <ul>
-        <li>No griefing</li>
-        <li>Be respectful</li>
-        <li>No cheating or hacking</li>
-      </ul>
-    </div>
-  </section>
+        <div class="store-info">
+            <h2>Welcome to the Official Store</h2>
+            <p>Take advantage of our limited-time offers and enhance your gameplay!</p>
+            <div class="support-buttons">
+                <button class="support-btn">Discord Server</button>
+                <button class="support-btn">Email Support</button>
+            </div>
+        </div>
 
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
+        <div class="progress-container">
+            <h3>Monthly Goal</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 54%;"></div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Scroll-to-Top Button -->
-  <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
