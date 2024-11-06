@@ -3,61 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Minecraft Server</title>
+    <title>Minecraft Server Store</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <img src="your-logo-url.png" alt="Server Logo" class="logo">
-        <div class="server-info">
-            <p>PLAY.EYSERVER.COM</p>
-            <button class="copy-btn">Click to Copy</button>
-        </div>
+    <header>
+        <h1>Minecraft Server Store</h1>
+        <p>Buy ranks and perks for our Minecraft server!</p>
     </header>
-
-    <section class="main">
-        <div class="category-selector">
-            <h2>Select a Category</h2>
-            <button class="category-btn">Ranks</button>
-            <button class="category-btn">Coins</button>
+    <section id="store">
+        <div class="item">
+            <h2>VIP Rank</h2>
+            <p>Get exclusive perks and commands.</p>
+            <button onclick="purchaseItem('VIP')">Buy Now - $5</button>
         </div>
-        
-        <div class="packages">
-            <h2>Featured Packages</h2>
-            <div class="package-card">
-                <p>VIP (+500 Coins)</p>
-                <span class="price">15.59 USD</span>
-                <span class="discount">50% OFF</span>
-            </div>
-            <div class="package-card">
-                <p>MVP (+2500 Coins)</p>
-                <span class="price">44.39 USD</span>
-                <span class="discount">50% OFF</span>
-            </div>
-            <div class="package-card">
-                <p>Legend (+5000 Coins)</p>
-                <span class="price">107.99 USD</span>
-                <span class="discount">50% OFF</span>
-            </div>
-        </div>
-
-        <div class="store-info">
-            <h2>Welcome to the Official Store</h2>
-            <p>Take advantage of our limited-time offers and enhance your gameplay!</p>
-            <div class="support-buttons">
-                <button class="support-btn">Discord Server</button>
-                <button class="support-btn">Email Support</button>
-            </div>
-        </div>
-
-        <div class="progress-container">
-            <h3>Monthly Goal</h3>
-            <div class="progress-bar">
-                <div class="progress-fill" style="width: 54%;"></div>
-            </div>
+        <div class="item">
+            <h2>Elite Rank</h2>
+            <p>Unlock more commands and custom items.</p>
+            <button onclick="purchaseItem('Elite')">Buy Now - $10</button>
         </div>
     </section>
-
+    <footer>
+        <p>Powered by Your Minecraft Server | All rights reserved © 2024</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
