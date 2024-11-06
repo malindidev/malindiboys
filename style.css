@@ -1,80 +1,60 @@
-/* Basic Reset */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
+/* Body & Background */
 body {
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(135deg, #282828, #444);
-    color: #fff;
+    color: #ffffff;
     text-align: center;
+    min-height: 100vh;
 }
 
+/* Header */
 header {
     padding: 2rem;
-    margin-bottom: 2rem;
 }
 
-h1 {
-    font-size: 2.5rem;
+header h1 {
+    font-size: 2.8rem;
     color: #ffc107;
     margin-bottom: 0.5rem;
 }
 
-p {
-    font-size: 1.2rem;
-    color: #ddd;
+header p {
+    font-size: 1.3rem;
+    color: #eee;
+    margin-bottom: 2rem;
 }
 
+/* Store Section */
 #store {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2rem;
+    padding: 2rem;
 }
 
+/* Item Card */
 .item {
-    background: #333;
-    padding: 1.5rem;
-    border-radius: 8px;
-    width: 200px;
-    transition: transform 0.3s;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item:hover {
-    transform: scale(1.05);
-}
-
-.item h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-    color: #ffc107;
-}
-
-button {
-    padding: 0.7rem 1rem;
-    border: none;
-    border-radius: 4px;
-    background: #ffc107;
-    color: #333;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-button:hover {
-    background: #ffb000;
-}
-
-footer {
-    margin-top: 2rem;
-    padding: 1rem;
-    background: #222;
-    width: 100%;
-}
+    transform: translateY(-
